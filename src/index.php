@@ -11,7 +11,7 @@ $output = array(
 );
 
 
-$t = $_REQUEST['text'];
+$t =  isset($_REQUEST['text']) ? $_REQUEST['text'] : "";
 
 if($t ==null)
 {
